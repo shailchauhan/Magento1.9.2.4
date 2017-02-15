@@ -1,0 +1,27 @@
+.label {display: inline; padding:0;font-size: 75%; font-weight:normal;line-height: 0;color: #000; text-align: center; white-space: nowrap;}
+.clearer{clear: both;}
+/* header section */
+
+
+/* Large desktop */
+@media (min-width: 1200px) { }
+ 
+/*for desktop mid*/
+@media (min-width:992px) and (max-width:1199px){
+    
+}
+  
+/* Portrait tablet to landscape and desktop sm */
+@media (min-width: 768px) and (max-width: 991px) {
+    
+}
+  
+/* Landscape phone to portrait tablet xs */
+@media (max-width: 767px) {
+    
+}
+  
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <default translate="label" module="page">
+        <reference name="head">
+            
+            <!-- Adding Javascripts -->
+            <action method="addItem">
+                <type>skin_js</type><name>js/jquery-3.1.0.min.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type><name>js/bootstrap.min.js</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type><name>js/jquery.scripts.js</name>
+            </action>
+            
+             
+            <!-- Removing the styles.css -->
+            <action method="removeItem">
+                <type>skin_css</type><name>css/styles.css</name>
+            </action>
+            
+            <!-- Adding Bootstrap css -->
+            <action method="addItem">
+                <type>skin_css</type><stylesheet>css/bootstrap.min.css</stylesheet>
+            </action>
+            
+            <!-- Adding the fontawesome -->
+            <action method="addItem">
+                <type>skin_css</type><stylesheet>css/font-awesome.min.css</stylesheet>
+            </action>
+            
+            <!-- Adding the styles.css -->
+            <action method="addItem">
+                <type>skin_css</type><stylesheet>css/styles.css</stylesheet>
+            </action>
+            
+            <!-- Adding custom css -->
+            <action method="addItem">
+                <type>skin_css</type><stylesheet>css/custom.css</stylesheet>
+            </action>
+        </reference>
+    </default>
+</layout>
